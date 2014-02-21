@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   
   <name>hive</name>
-  <description>hive</description>
+  <description>hive extension</description>
   
   <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
