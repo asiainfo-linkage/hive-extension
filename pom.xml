@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ailk.oci.hive</groupId>
     <artifactId>hive-extension</artifactId>
-    <version>0.12.0-och2.0.0-beta</version>
+    <version>0.13.1-och4.0.0</version>
     <packaging>jar</packaging>
 
     <name>hive</name>
@@ -11,21 +11,21 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <cdh4.hadoop.version>2.0.0-cdh4.2.1</cdh4.hadoop.version>
-        <cdh4.hadoop.mr1.version>2.0.0-mr1-cdh4.2.1</cdh4.hadoop.mr1.version>
-        <cdh4.hive.version>0.12.0</cdh4.hive.version>
-        <cdh4.hbase.version>0.94.12</cdh4.hbase.version>
+        <cdh5.hadoop.version>2.5.0-cdh5.2.1</cdh4.hadoop.version>
+        <cdh5.hadoop.mr1.version>2.0.0-mr1-cdh4.2.1</cdh4.hadoop.mr1.version>
+        <cdh5.hive.version>0.13.1-cdh5.2.1</cdh4.hive.version>
+        <cdh5.hbase.version>0.98.6.1</cdh4.hbase.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-common</artifactId>
-            <version>${cdh4.hadoop.version}</version>
+            <version>${cdh5.hadoop.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-mapreduce-client-core</artifactId>
-            <version>${cdh4.hadoop.version}</version>
+            <version>${cdh5.hadoop.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
@@ -35,12 +35,12 @@
         <dependency>
             <groupId>org.apache.hbase</groupId>
             <artifactId>hbase</artifactId>
-            <version>${cdh4.hbase.version}</version>
+            <version>${cdh5.hbase.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.hive</groupId>
             <artifactId>hive-metastore</artifactId>
-            <version>${cdh4.hive.version}</version>
+            <version>${cdh5.hive.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.hive</groupId>
