@@ -17,7 +17,7 @@
         <cdh5.hbase.version>0.98.6.1</cdh5.hbase.version>
     </properties>
     <dependencies>
-        <dependency>
+        <!--<dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-common</artifactId>
             <version>${cdh5.hadoop.version}</version>
@@ -36,7 +36,7 @@
             <groupId>org.apache.hbase</groupId>
             <artifactId>hbase</artifactId>
             <version>${cdh5.hbase.version}</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.apache.hive</groupId>
             <artifactId>hive-metastore</artifactId>
