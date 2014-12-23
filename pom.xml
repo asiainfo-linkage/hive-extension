@@ -14,10 +14,10 @@
         <cdh5.hadoop.version>2.5.0-cdh5.2.1</cdh5.hadoop.version>
         <cdh5.hadoop.mr1.version>2.0.0-mr1-cdh4.2.1</cdh5.hadoop.mr1.version>
         <cdh5.hive.version>0.13.1-cdh5.2.1</cdh5.hive.version>
-        <cdh5.hbase.version>0.98.6.1</cdh5.hbase.version>
+        <!--<cdh5.hbase.version>0.98.6.1</cdh5.hbase.version>-->
     </properties>
     <dependencies>
-        <!--<dependency>
+        <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-common</artifactId>
             <version>${cdh5.hadoop.version}</version>
@@ -32,7 +32,7 @@
             <artifactId>hadoop-hdfs</artifactId>
             <version>${cdh5.hadoop.version}</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.apache.hbase</groupId>
             <artifactId>hbase</artifactId>
             <version>${cdh5.hbase.version}</version>
