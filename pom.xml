@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ailk.oci.hive</groupId>
     <artifactId>hive-extension</artifactId>
-    <version>0.13.1-och4.0.0</version>
+    <version>0.13.1-cdh5.2.1-och4.0.0</version>
     <packaging>jar</packaging>
 
     <name>hive</name>
